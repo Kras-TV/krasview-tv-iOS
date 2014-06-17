@@ -422,6 +422,11 @@
 				CLASSPREFIX = VDL;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = VideoLAN;
+				TargetAttributes = {
+					7D11B365183BA71600FF0D25 = {
+						DevelopmentTeam = RCRH66Z26W;
+					};
+				};
 			};
 			buildConfigurationList = 7D11B361183BA71600FF0D25 /* Build configuration list for PBXProject "tv" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -598,6 +603,8 @@
 					armv7,
 				);
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimplePlayback/tv-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../build/Release-iphonesimulator/include\"";
@@ -609,6 +616,7 @@
 					/Users/anutakay/code/ios/MobileVLCKit.framework,
 				);
 				PRODUCT_NAME = tv;
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s armv6 ";
 				WRAPPER_EXTENSION = app;
 			};
@@ -623,6 +631,8 @@
 					armv7,
 				);
 				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimplePlayback/tv-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../build/Release-iphonesimulator/include\"";
@@ -634,6 +644,7 @@
 					/Users/anutakay/code/ios/MobileVLCKit.framework,
 				);
 				PRODUCT_NAME = tv;
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s armv6 ";
 				WRAPPER_EXTENSION = app;
 			};

@@ -136,13 +136,13 @@
     NSLog(@"currentArray %@", self.currentArray);
     favSelected = !favSelected;
     if (favSelected) {
-        self.favButton.layer.backgroundColor = [[[[[UIApplication sharedApplication] delegate] window] tintColor] CGColor];
-        [self.favButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+       // self.favButton.layer.backgroundColor = [[UIColor colorWithRed:1.0 green:204.0/255.0 blue:0.0 alpha:1] CGColor];
+        //[self.favButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         self.currentArray = _star;
         self.favBarButton.image = [UIImage imageNamed:@"star.png"];
     }else{
-        self.favButton.layer.backgroundColor = [[UIColor whiteColor] CGColor];
-        [self.favButton setTitleColor:[[[[UIApplication sharedApplication] delegate] window] tintColor]  forState:UIControlStateNormal];
+        //self.favButton.layer.backgroundColor = [[UIColor whiteColor] CGColor];
+        //[self.favButton setTitleColor:[[[[UIApplication sharedApplication] delegate] window] tintColor]  forState:UIControlStateNormal];
         self.currentArray = _dishs;
         self.favBarButton.image = [UIImage imageNamed:@"nonstar.png"];
     }
